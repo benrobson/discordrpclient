@@ -21,7 +21,7 @@ client.on('connected', () => {
     console.log(`\n\n[Console] Presence has been changed\nState: ${presenceDisplay[x][0]}\nDetails: ${presenceDisplay[x][1]}\nLarge Image Key: ${presenceDisplay[x][2]}\nSmall Image Key: ${presenceDisplay[x][3]}`);
   };
 
-  setInterval(setPresence, 600000);
+  setInterval(setPresence, 300000);
   console.log('DiscordRP Client connected!');
 });
 
